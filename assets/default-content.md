@@ -5,7 +5,8 @@
 
 > 为什么要学习 python ？相信很多同学都有这个疑问。有一篇漫画很好地解释了这个问题，这则漫画也可以通过在 python 中运行 `import antigravity` 后看到。
 
-![Image text](https://imgs.xkcd.com/comics/python.png)
+<!-- ![Image text](https://imgs.xkcd.com/comics/python.png) -->
+![Image text](https://mmbiz.qpic.cn/mmbiz_png/TO0Oq5hdvxnZfx5cnlpbI1RGYUEj8ricMjOY2QQgjVuGCew27dWTpS9Q7QxCwnt1miaDUlj92EOBG3K9a5NCLWnA/0?wx_fmt=png)
 
 > 优雅，简洁，很多操作被高度封装，只需要简单地 `import` 需要的包之后直接使用即可，这便是 python 能带给我们的便利之处。借助 python，你可以不用像使用 C++ 或者 Java 那样关注很多底层较为细枝末节的地方，转而专注于实现你的逻辑关系，完成快速、简洁地开发。可以说，python 对于新手的门槛是非常低的，能很快地让学习者获得正反馈，并产生继续学习的动力。python 有很多可以应用的地方，比如数据分析处理，作图可视化，Web 爬虫，机器学习，深度学习。再比如，位于新生 QQ 群中的 bot 也是通过 python 由笔者编写的。
 
@@ -59,7 +60,7 @@ bash Anaconda3-2019.07-Linux-x86_64.sh
 >
 > 我们还可以进行一些额外的操作，比如对 conda 换源。源，指的是当你使用 conda 进行下载安装时的下载源，默认的下载源的服务器在国内的访问速度不甚理想，所以可以换成国内的下载源来增加下载速度。具体操作可以参见<https://mirror.tuna.tsinghua.edu.cn/help/anaconda/>。
 
-## 0x02 使用 jupyter notebook 进行实践
+## 0x02 jupyter notebook 实践
 
 > 接下来我们来使用一下 jupyter notebook 这一神器。
 
@@ -133,4 +134,3 @@ for i, url in enumerate(imgUrls[:10]):
 ## 0x03 结语
 
 > 显然这些实践还远远不够，如果有什么感兴趣的，想用 python 写出来的东西，欢迎通过后台联系技术部，说不定下篇推送中就有你想要的内容。
-

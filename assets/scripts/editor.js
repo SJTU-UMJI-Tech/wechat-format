@@ -63,10 +63,12 @@ var app = new Vue({
   },
   methods: {
     renderWeChat: function (source) {
-      var output = marked(source, { renderer: this.wxRenderer.getRenderer() })
+      var output = '<p>&nbsp;</p><section class="" style="letter-spacing: 0px;text-align: start;white-space: normal;font-size: 18px;color: rgb(62, 62, 62);line-height: 1.6;font-family: &quot;Helvetica Neue&quot;, Helvetica, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;">'
+      output += marked(source, { renderer: this.wxRenderer.getRenderer() })
       if (this.wxRenderer.hasFootnotes()) {
         output += this.wxRenderer.buildFootnotes()
       }
+      output += '</section>'
       return output
     },
     editorThemeChanged: function (editorTheme) {
@@ -98,11 +100,11 @@ var app = new Vue({
     copy: function () {
       var clipboardDiv = document.getElementById('output')
       clipboardDiv.focus();
-      window.getSelection().removeAllRanges();  
-      var range = document.createRange(); 
+      window.getSelection().removeAllRanges();
+      var range = document.createRange();
       range.setStartBefore(clipboardDiv.firstChild);
       range.setEndAfter(clipboardDiv.lastChild);
-      window.getSelection().addRange(range);  
+      window.getSelection().addRange(range);
 
       try {
         if (document.execCommand('copy')) {
