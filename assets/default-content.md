@@ -5,8 +5,8 @@
 
 > 为什么要学习 python ？相信很多同学都有这个疑问。有一篇漫画很好地解释了这个问题，这则漫画也可以通过在 python 中运行 `import antigravity` 后看到。
 
-<!-- ![Image text](https://imgs.xkcd.com/comics/python.png) -->
-![Image text](https://mmbiz.qpic.cn/mmbiz_png/TO0Oq5hdvxnZfx5cnlpbI1RGYUEj8ricMjOY2QQgjVuGCew27dWTpS9Q7QxCwnt1miaDUlj92EOBG3K9a5NCLWnA/0?wx_fmt=png)
+![Image text](https://imgs.xkcd.com/comics/python.png)
+<!-- ![Image text](https://mmbiz.qpic.cn/mmbiz_png/TO0Oq5hdvxnZfx5cnlpbI1RGYUEj8ricMjOY2QQgjVuGCew27dWTpS9Q7QxCwnt1miaDUlj92EOBG3K9a5NCLWnA/0?wx_fmt=png) -->
 
 > 优雅，简洁，很多操作被高度封装，只需要简单地 `import` 需要的包之后直接使用即可，这便是 python 能带给我们的便利之处。借助 python，你可以不用像使用 C++ 或者 Java 那样关注很多底层较为细枝末节的地方，转而专注于实现你的逻辑关系，完成快速、简洁地开发。可以说，python 对于新手的门槛是非常低的，能很快地让学习者获得正反馈，并产生继续学习的动力。python 有很多可以应用的地方，比如数据分析处理，作图可视化，Web 爬虫，机器学习，深度学习。再比如，位于新生 QQ 群中的 bot 也是通过 python 由笔者编写的。
 
